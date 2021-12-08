@@ -74,5 +74,7 @@ print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Dd
 print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
 
 print("novo teste")
+
+print("olha o print da rede aqui")
 #novo comentario feito pela rede
 #esse comenatario nao faz sentido
