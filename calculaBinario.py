@@ -25,13 +25,13 @@ def calculaMascara(ipBinario): #Recebe um ip em string
     rede = list(ipBinario) #Converte ele para lista
     mascara = 32 - mask #Calculo para descobrir quantos 0 substituir nos octetos
     num = "0" * mascara # Atribuindo os zeros a uma variável
-    '''
+    
     rede.reverse()
     for i in range(len(num)):
         rede[i] = "0"
     
     rede.reverse()
-    '''
+    
     for i in range(len(num)): #Faz laço com o número de zeros, removendo o último item da lista
         rede.pop(-1)
     
