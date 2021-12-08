@@ -4,8 +4,7 @@ listIp = ip.split(".")  # Convertendo a string em lista separando por pontos
 # int(input("Digite a mascara de rede: \n")) # Recebendo mascara de rede
 mask = 25
 
-# função que converta em binario
-
+# função que converta em binari
 
 def converteBinario(numeroBinarios):
     for i in range(len(numeroBinarios)):  # Laço para percorrer os index da lista
