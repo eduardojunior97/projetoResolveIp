@@ -12,6 +12,8 @@ def converteBinario(numeroBinarios):
     
     return numeroBinarios # Retorna a lista em binario em string
 
+print('OLA')
+
 def verificaZeros(binarios):
     for i in range(len(binarios)): # Laço para percorrer os index da lista
         if len(binarios[i]) < 8: # Verifica se o item corrente é maior que 8
