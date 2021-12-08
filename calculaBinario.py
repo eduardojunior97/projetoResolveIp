@@ -50,7 +50,7 @@ def transformaDecimal(numeroBinario): #Recebe uma sitring de 1 octeto do número
         pot -= 1 # Reduz 1 na potencia
         numDecimal.append(num) #Atribui o primeiro valor em uma lista
     
-    return sum(Decimal) #Soma toda a lista para retornar o número decimal
+    return sum(numDecimal) #Soma toda a lista para retornar o número decimal
 
 
 
