@@ -53,6 +53,6 @@ def transformaDecimal(numeroBinario): #Recebe uma sitring de 1 octeto do número
     return sum(numDecimal) #Soma toda a lista para retornar o número decimal
 
 print("nome eduardo")
-
+print("nome karina")
 
 
