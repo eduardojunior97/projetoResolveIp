@@ -7,7 +7,6 @@ address = entrada.split("/")
 ip = address[0]
 bitcount = address[1]
 
-ERROO NO SEU CÓDIGO
 
 # print(f'Testando máscara... {bitcount}')
 
