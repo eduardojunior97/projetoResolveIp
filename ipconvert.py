@@ -5,7 +5,7 @@ entrada = str(input('Digite o IP: '))
 print('=' * 100)
 address = entrada.split("/")
 ip = address[0]
-bitcount = addr[1]
+bitcount = address[1]
 
 
 # print(f'Testando máscara... {bitcount}')
