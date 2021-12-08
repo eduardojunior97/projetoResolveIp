@@ -1,6 +1,6 @@
 
-input = input('Informe o IP: ')
-#input = '172.17.135.233/25'
+#input = input('Informe o IP: ')
+input = '172.17.135.233/25'
 
 # Separar o IP da máscara (bitcount) (172.17.135.233/25)
 separar = input.split('/')

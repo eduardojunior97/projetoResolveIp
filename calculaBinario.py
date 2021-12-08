@@ -5,7 +5,6 @@ listIp = ip.split(".")  # Convertendo a string em lista separando por pontos
 mask = 25
 
 # função que converta em binari
-
 def converteBinario(numeroBinarios):
     for i in range(len(numeroBinarios)):  # Laço para percorrer os index da lista
         # Transforma o item corrente em inteiro
@@ -16,10 +15,6 @@ def converteBinario(numeroBinarios):
         numeroBinarios[i] = numeroBinarios[i][2:]
 
     return numeroBinarios  # Retorna a lista em binario em string
-
-
-print('ola')
-
 
 def verificaZeros(binarios):
     for i in range(len(binarios)):  # Laço para percorrer os index da lista
@@ -37,13 +32,13 @@ def calculaMascara(ipBinario):  # Recebe um ip em string
     rede = list(ipBinario)  # Converte ele para lista
     mascara = 32 - mask  # Calculo para descobrir quantos 0 substituir nos octetos
     num = "0" * mascara  # Atribuindo os zeros a uma variável
-    '''
+
     rede.reverse()
     for i in range(len(num)):
         rede[i] = "0"
     
     rede.reverse()
-    '''
+
     for i in range(len(num)):  # Faz laço com o número de zeros, removendo o último item da lista
         rede.pop(-1)
 
