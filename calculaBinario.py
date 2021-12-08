@@ -76,5 +76,8 @@ print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,
 print("novo teste")
 
 print("olha o print da rede aqui")
+
+
+print("eu master tbm vou comentar")
 #novo comentario feito pela rede
 #esse comenatario nao faz sentido
