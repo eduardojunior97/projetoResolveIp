@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-=======
 ip = "172.20.17.23" #str(input("Digite seu ip: \n")) #Recebendo o IP
 listIp = ip.split(".") # Convertendo a string em lista separando por pontos
 mask = 25 #int(input("Digite a mascara de rede: \n")) # Recebendo mascara de rede
@@ -53,8 +51,5 @@ def transformaDecimal(numeroBinario): #Recebe uma sitring de 1 octeto do número
         numDecimal.append(num) #Atribui o primeiro valor em uma lista
     
     return sum(numDecimal) #Soma toda a lista para retornar o número decimal
-
-
->>>>>>> 116275e9a5110bfe2bfc141a07abca00f309433b
 
 
