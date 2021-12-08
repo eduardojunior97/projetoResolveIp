@@ -54,21 +54,4 @@ def transformaDecimal(numeroBinario): #Recebe uma sitring de 1 octeto do número
 
 
 
-listIp = converteBinario(listIp)
-listIp = verificaZeros(listIp)
-listIp = "".join(listIp)
 
-resultadoMascara = calculaMascara(listIp)
-
-Adecimal = "".join(resultadoMascara[0:8])
-Bdecimal = "".join(resultadoMascara[8:16])
-Cdecimal = "".join(resultadoMascara[16:24])
-Ddecimal = "".join(resultadoMascara[24:32])
-        
-Adecimal = transformaDecimal(Adecimal)
-Bdecimal = transformaDecimal(Bdecimal)
-Cdecimal = transformaDecimal(Cdecimal)
-Ddecimal = transformaDecimal(Ddecimal)
-
-print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal,mask))
-print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
