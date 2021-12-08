@@ -72,12 +72,3 @@ Ddecimal = transformaDecimal(Ddecimal)
 
 print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal,mask))
 print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
-
-print("novo teste")
-
-print("olha o print da rede aqui")
-
-
-print("eu master tbm vou comentar")
-#novo comentario feito pela rede
-#esse comenatario nao faz sentido
