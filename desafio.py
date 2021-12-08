@@ -48,3 +48,17 @@ PrimeiroOcteto = NetbinStr[0:8]
 SegundoOcteto = NetbinStr[8:16]
 TerceiroOcteto = NetbinStr[16:24]
 QuartoOcteto = NetbinStr[24:32]
+
+#converte de binario para decimal :http://ptcomputador.com/P/python-programming/93577.html
+Adec = int(PrimeiroOcteto,2) 
+Bdec = int(SegundoOcteto,2)
+Cdec = int(TerceiroOcteto,2)
+Ddec = int(QuartoOcteto,2)
+
+IP_rede = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec) + '/' + mascara
+print('IP da rede: :', IP_rede)
+print('-'*65)
+
+Default_gateway = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec +1)
+print('Default Gateway:', Default_gateway)
+print('-'*65)
