@@ -74,4 +74,4 @@ print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Dd
 print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
 
 #novo comentario feito pela rede
-#novo comentario feito pelo master
+#novo comentario feito pelo master nao gostei desse comentario
