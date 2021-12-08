@@ -53,3 +53,4 @@ gateway = converter_binario_para_decimal(identificacao)
 print(f'Ip convertido para decimal. ID da rede: {gateway}/{bitcount}')
 print(f'Default Gateway {binary_to_decimal}')
 
+print("=*",90)
