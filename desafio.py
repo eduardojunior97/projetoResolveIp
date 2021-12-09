@@ -67,9 +67,6 @@ Default_gateway = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec +1)
 print('Default Gateway:', Default_gateway)
 print('-'*65)
 
-soma = 2 + 2
-print(soma)
-print(1 + 2)
-var = 'fabio'
-print(var)
+# ALTERAÇÃO PARA TESTE
+
 
