@@ -3,6 +3,10 @@
 #Novos comentarios para calcula binario
 #--------------------------------------
 
+#--------------------------------------
+#Novos comentarios para calcula binario
+#--------------------------------------
+
 # ip = 172.17.135.233/25
 #
 print('=' * 100)
