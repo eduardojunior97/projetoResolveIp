@@ -27,6 +27,10 @@ BbinStr = Bbin.zfill(8)
 CbinStr = Cbin.zfill(8)
 DbinStr = Dbin.zfill(8)
 
+def ola():
+    print('pulando linha')
+    print('AGORA VAI!')
+
 # Concatenar AbinStr, BbinStr, CbinStr, DbinStr
 IPbinStr = AbinStr + BbinStr + CbinStr + DbinStr
 
@@ -62,3 +66,7 @@ print('-'*65)
 Default_gateway = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec +1)
 print('Default Gateway:', Default_gateway)
 print('-'*65)
+print(1 + 2)
+var = 'fabio'
+print(var)
+
