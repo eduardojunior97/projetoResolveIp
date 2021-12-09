@@ -68,3 +68,5 @@ print('Default Gateway:', Default_gateway)
 print('-'*65)
 
 # ALTERAÇÃO PARA TESTE
+
+
