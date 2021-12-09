@@ -17,7 +17,7 @@ def converteBinario(numeroBinarios):
 
     return numeroBinarios  # Retorna a lista em binario em string
 
-
+print()
 print('ola')
 
 
