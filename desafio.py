@@ -77,13 +77,9 @@ print('Default Gateway:', Default_gateway)
 print('-'*65)
 
 # ALTERAÇÃO PARA TESTE
-<<<<<<< HEAD
 #adicionando uma nova função 
 def soma(x,y):
     return(x,y)
 
-=======
-#Converte desafio
->>>>>>> 6b5579fc5f48f87cd7741f1922e8912352cbfb7e
 
 #nova branch da hotfix

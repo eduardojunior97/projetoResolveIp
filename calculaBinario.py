@@ -1,5 +1,3 @@
-
-
 #--------------------------------------
 #Novos comentarios para calcula binario
 #--------------------------------------
@@ -82,11 +80,6 @@ Ddecimal = transformaDecimal(Ddecimal)
 print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal,mask))
 print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
 
-<<<<<<< HEAD
 # Comentário trabalhando na branch QA RELEASE
 #estou fazendo a conversão de decimal
 #eu fiz mais uma alteração
-=======
-
-#converte Calcula binario
->>>>>>> 6b5579fc5f48f87cd7741f1922e8912352cbfb7e
