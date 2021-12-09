@@ -27,6 +27,10 @@ BbinStr = Bbin.zfill(8)
 CbinStr = Cbin.zfill(8)
 DbinStr = Dbin.zfill(8)
 
+def ola():
+    print('pulando linha')
+    print('AGORA VAI!')
+
 # Concatenar AbinStr, BbinStr, CbinStr, DbinStr
 IPbinStr = AbinStr + BbinStr + CbinStr + DbinStr
 
@@ -68,3 +72,9 @@ def soma(x,y):
     return(x,y)
 
 print(soma(5,2))
+soma = 2 + 2
+print(soma)
+print(1 + 2)
+var = 'fabio'
+print(var)
+
