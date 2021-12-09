@@ -74,3 +74,5 @@ print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Dd
 print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
 
 # Comentário trabalhando na branch QA RELEASE
+#estou fazendo a conversão de decimal
+#eu fiz mais uma alteração
