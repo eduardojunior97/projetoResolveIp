@@ -68,3 +68,14 @@ print('Default Gateway:', Default_gateway)
 print('-'*65)
 
 # ALTERAÇÃO PARA TESTE
+#adicionando uma nova função 
+def soma(x,y):
+    return(x,y)
+
+print(soma(5,2))
+soma = 2 + 2
+print(soma)
+print(1 + 2)
+var = 'fabio'
+print(var)
+
