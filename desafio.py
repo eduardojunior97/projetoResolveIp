@@ -1,4 +1,13 @@
 
+#--------------------------------------
+#Novos comentarios para desafio
+#--------------------------------------
+
+#--------------------------------------
+#Novos comentarios para calcula binario
+#--------------------------------------
+
+
 #input = input('Informe o IP: ')
 input = '172.17.135.233/25'
 
@@ -73,3 +82,4 @@ def soma(x,y):
     return(x,y)
 
 
+#nova branch da hotfix
