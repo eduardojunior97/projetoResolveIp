@@ -1,4 +1,7 @@
 
+#ALTERAÇÃO KARINA
+
+
 #input = input('Informe o IP: ')
 input = '172.17.135.233/25'
 
@@ -66,16 +69,3 @@ print('-'*65)
 Default_gateway = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec +1)
 print('Default Gateway:', Default_gateway)
 print('-'*65)
-
-# ALTERAÇÃO PARA TESTE
-#adicionando uma nova função 
-def soma(x,y):
-    return(x,y)
-
-print(soma(5,2))
-soma = 2 + 2
-print(soma)
-print(1 + 2)
-var = 'fabio'
-print(var)
-
