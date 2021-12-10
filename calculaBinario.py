@@ -6,7 +6,6 @@
 #Novos comentarios para calcula binario
 #--------------------------------------
 
-
 #TESTE KARINA
 
 ip = "172.20.17.23" #str(input("Digite seu ip: \n")) #Recebendo o IP
