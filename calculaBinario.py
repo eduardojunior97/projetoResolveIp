@@ -80,3 +80,4 @@ print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,
 
 
 #comentario para o vscode
+#estou comentando
