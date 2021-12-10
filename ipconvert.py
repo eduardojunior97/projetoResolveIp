@@ -1,5 +1,5 @@
 
-#ALTERAÇÃO KARINA
+# ALTERAÇÃO KARINA
 
 # ip = 172.17.135.233/25
 
@@ -58,4 +58,4 @@ print(f'Default Gateway {binary_to_decimal}')
 
 print("=*", 90)
 
-#converte o ipconvert
+# converte o ipconvert
