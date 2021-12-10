@@ -85,3 +85,5 @@ print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,
 # Comentário trabalhando na branch QA RELEASE
 #estou fazendo a conversão de decimal
 #eu fiz mais uma alteração
+
+#converte Calcula binario
