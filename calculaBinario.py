@@ -6,6 +6,9 @@
 #Novos comentarios para calcula binario
 #--------------------------------------
 
+
+#TESTE KARINA
+
 ip = "172.20.17.23" #str(input("Digite seu ip: \n")) #Recebendo o IP
 listIp = ip.split(".") # Convertendo a string em lista separando por pontos
 mask = 25 #int(input("Digite a mascara de rede: \n")) # Recebendo mascara de rede
