@@ -8,6 +8,8 @@ ip = address[0]
 bitcount = address[1]
 
 
+# l
+
 # print(f'Testando máscara... {bitcount}')
 
 def decimal_to_binary(ip):
