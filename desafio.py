@@ -1,13 +1,4 @@
 
-#--------------------------------------
-#Novos comentarios para desafio
-#--------------------------------------
-
-#--------------------------------------
-#Novos comentarios para calcula binario
-#--------------------------------------
-
-
 #input = input('Informe o IP: ')
 input = '172.17.135.233/25'
 
@@ -77,6 +68,10 @@ print('Default Gateway:', Default_gateway)
 print('-'*65)
 
 # ALTERAÇÃO PARA TESTE
+#adicionando uma nova função 
+def soma(x,y):
+    return(x,y)
+
 #Converte desafio
 
 #nova branch da hotfix
