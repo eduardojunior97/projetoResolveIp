@@ -1,7 +1,7 @@
 
 #input = input('Informe o IP: ')
 input = '172.17.135.233/25'
-
+# TESTANDO O QA-RELEASE
 # Separar o IP da máscara (bitcount) (172.17.135.233/25)
 separar = input.split('/')
 ip = separar[0]
