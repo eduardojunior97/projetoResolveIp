@@ -1,4 +1,7 @@
 
+#ALTERAÇÃO KARINA
+#teste de alteração código
+
 #input = input('Informe o IP: ')
 input = '172.17.135.233/25'
 
@@ -70,3 +73,4 @@ print('-'*65)
 # ALTERAÇÃO PARA TESTE
 #Converte desafio
 
+#alteração karina

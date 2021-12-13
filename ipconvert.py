@@ -1,5 +1,10 @@
+
+#ALTERAÇÃO KARINA
+
+#teste alteração 2
+
 # ip = 172.17.135.233/25
-#
+
 print('=' * 100)
 entrada = str(input('Digite o IP: '))
 print('=' * 100)
