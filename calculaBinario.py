@@ -74,6 +74,3 @@ Ddecimal = transformaDecimal(Ddecimal)
 
 print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal,mask))
 print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
-
-
-#converte Calcula binario

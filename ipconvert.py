@@ -61,3 +61,4 @@ print(f'Default Gateway {binary_to_decimal}')
 print("=*", 90)
 
 #converte o ipconvert
+#Novo comentario pelo vscode
