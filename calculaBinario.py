@@ -76,3 +76,4 @@ print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,
 
 #converte Calcula binario
 #alteração feita pelo vscode
+#testando alterações hoje
