@@ -71,5 +71,3 @@ Default_gateway = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec +1)
 print('Default Gateway:', Default_gateway)
 print('-'*65)
 
-
-#novo comentario 
