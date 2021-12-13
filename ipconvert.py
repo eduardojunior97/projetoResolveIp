@@ -1,14 +1,8 @@
 
-#--------------------------------------
-#Novos comentarios para calcula binario
-#--------------------------------------
-# ola
-#--------------------------------------
-#Novos comentarios para calcula binario
-#--------------------------------------
+
 
 # ip = 172.17.135.233/25
-#
+
 print('=' * 100)
 entrada = str(input('Digite o IP: '))
 print('=' * 100)
@@ -64,4 +58,4 @@ print(f'Default Gateway {binary_to_decimal}')
 
 print("=*", 90)
 
-#converte o ipconvert
+# converte o ipconvert

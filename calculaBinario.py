@@ -8,6 +8,8 @@
 
 #TESTE KARINA
 
+#ALTERAÇÃO KARINA
+
 ip = "172.20.17.23" #str(input("Digite seu ip: \n")) #Recebendo o IP
 listIp = ip.split(".") # Convertendo a string em lista separando por pontos
 mask = 25 #int(input("Digite a mascara de rede: \n")) # Recebendo mascara de rede
@@ -85,5 +87,3 @@ print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,
 # Comentário trabalhando na branch QA RELEASE
 #estou fazendo a conversão de decimal
 #eu fiz mais uma alteração
-
-#converte Calcula binario
