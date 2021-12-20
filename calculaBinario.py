@@ -1,13 +1,3 @@
-#--------------------------------------
-#Novos comentarios para calcula binario
-#--------------------------------------
-
-#--------------------------------------
-#Novos comentarios para calcula binario
-#--------------------------------------
-
-#TESTE KARINA
-
 ip = "172.20.17.23" #str(input("Digite seu ip: \n")) #Recebendo o IP
 listIp = ip.split(".") # Convertendo a string em lista separando por pontos
 mask = 25 #int(input("Digite a mascara de rede: \n")) # Recebendo mascara de rede
@@ -82,8 +72,3 @@ Ddecimal = transformaDecimal(Ddecimal)
 print("Esse e o id da rede: {}.{}.{}.{}/{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal,mask))
 print("Esse e o Default gateway: {}.{}.{}.{}".format(Adecimal,Bdecimal,Cdecimal,Ddecimal + 1))
 
-# Comentário trabalhando na branch QA RELEASE
-#estou fazendo a conversão de decimal
-#eu fiz mais uma alteração
-
-#converte Calcula binario

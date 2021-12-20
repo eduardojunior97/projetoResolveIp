@@ -67,11 +67,3 @@ Default_gateway = str(Adec) +'.'+ str(Bdec) +'.'+ str(Cdec) +'.'+ str(Ddec +1)
 print('Default Gateway:', Default_gateway)
 print('-'*65)
 
-# ALTERAÇÃO PARA TESTE
-#adicionando uma nova função 
-def soma(x,y):
-    return(x,y)
-
-#Converte desafio
-
-#nova branch da hotfix
