@@ -3,7 +3,7 @@
 #teste de alteração código
 
 #input = input('Informe o IP: ')
-input = '172.17.135.233/25'
+input = '123.255.255.255/25'
 
 # Separar o IP da máscara (bitcount) (172.17.135.233/25)
 separar = input.split('/')
@@ -29,10 +29,6 @@ AbinStr = Abin.zfill(8)  # acrescenta zero a esquerda
 BbinStr = Bbin.zfill(8)
 CbinStr = Cbin.zfill(8)
 DbinStr = Dbin.zfill(8)
-
-def ola():
-    print('pulando linha')
-    print('AGORA VAI!')
 
 # Concatenar AbinStr, BbinStr, CbinStr, DbinStr
 IPbinStr = AbinStr + BbinStr + CbinStr + DbinStr
