@@ -53,7 +53,7 @@ class Ips(Resource):
 
         gateway = converter_binario_para_decimal(identificacao, 1)
         id_rede = converter_binario_para_decimal(identificacao)
-    
+
         rede = id_rede + '-' + bitcount
         return {'rede': rede, 'gateway': gateway}
 
@@ -75,7 +75,6 @@ class Lista_ip(Resource):
             return resultado
 
         var_decimal_binary = decimal_to_binary(ip)
-        print(f'Convertido os bits com o 0 a esquerda {var_decimal_binary}')
 
         # Tentando alocar os ZEROS na rede
 
@@ -90,7 +89,6 @@ class Lista_ip(Resource):
 
         # Chamando função do método de identificação de rede
         identificacao = identificar_ip_rede(var_decimal_binary, bitcount)
-        print(f'Alocando a quantidade de 0 a esquerda {identificacao}')
 
         def converter_binario_para_decimal(identificacao, num=0):
             AbinStr = str(int(identificacao[0:8], 2))
@@ -101,7 +99,6 @@ class Lista_ip(Resource):
 
         gateway = converter_binario_para_decimal(identificacao, 1)
         id_rede = converter_binario_para_decimal(identificacao)
-
 
         rede = id_rede + '-' + bitcount
         return {'rede': rede, 'gateway': gateway}
