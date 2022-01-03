@@ -58,7 +58,7 @@ class Ips(Resource):
         rede = id_rede + '/' + bitcount
         return {'rede': rede, 'gateway': gateway}
 
-
+#
 # decorador
 api.add_resource(Ips, '/newzin')
 
